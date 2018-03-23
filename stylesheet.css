@@ -1,0 +1,130 @@
+
+html {
+    font-family: Raleway;
+}
+
+
+#banner {
+    background-image: url("gowrimechkb.jpeg");
+    background-size: cover;
+    background-position: top center;
+    height: 1030px;
+    width: 100%;
+    text-align: center;
+}
+
+#banner .welcome h1 {
+    padding: 40px;
+    position: relative;
+    top: 300px;
+    width: 600px;
+    margin: 0 auto;
+}
+ h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Raleway;
+ }
+ 
+.btncont {
+    padding: 10px 40px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 323px;
+    width: 300px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Raleway;
+    text-decoration: none;
+    transition: background .5s;
+    border-radius: 5px;
+}
+
+.btncont:hover {
+    background: #fff;
+    cursor: pointer; 
+    transition: background .5s;
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    font-family: Raleway;
+}
+
+a {
+    font-family: Raleway;
+}
+
+p {
+    font-family: Raleway;
+}
+
+.picofme {
+    width: 200px;
+    height: auto;
+}
+
+
+/*
+
+(old css styling I didn't want to delete for future ref)
+
+li {
+    font-family: Raleway, sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+li a {
+    color: #FFF;
+    height: 70px;
+    text-align: center;
+    line-height: 51px;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    overflow: scroll;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: white;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #000;
+    color: gray;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.80);
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+} 
+
+*/
